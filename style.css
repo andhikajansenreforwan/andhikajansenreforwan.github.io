@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+
+/* Website Style */
+* {
+    font-family: "Noto Sans SC", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Section */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 255, 254);
+    color: black;
+}
+
+/* Dudeesseyo Header/Navbar Section Style */
+.dudeesseyo-navbar-header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: lightblue;
+    border-bottom: 3px solid greenyellow;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.dudeesseyo-navbar-header-section img {
+    margin-top: -5px;
+}
+
+/* Navbar */
+.dudeesseyo-navbar-header-section ul {
+    display: flex;
+    padding-top: 5px;
+}
+
+.dudeesseyo-navbar-header-section ul li {
+    list-style-type: none;
+}
+
+.dudeesseyo-navbar-header-section ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.dudeesseyo-navbar-header-section ul li a:hover {
+    text-decoration: none;
+    margin: 12px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: blueviolet;
+    transition-duration: 0.5s;
+}
+
+.dudeesseyo-navbar-header-section ul li a.home {
+    background-color: tomato;
+    color: ivory;
+}
+
+.dudeesseyo-navbar-header-section ul li a.home:hover {
+    background-color: rgb(245, 140, 121);
+    color: darkorchid;
+}
+
+/* Login + Profile Section Style */
+.login-plus-profile-section {
+    display: flex;
+}
+
+.login-and-sign-up-section {
+    margin-top: 5px;
+}
+
+.login-and-sign-up-section button {
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 1px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-and-sign-up-section button:hover {
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 1px;
+    background-color: rgb(169, 255, 83);
+    color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+/* Profile Icon Section */
+.profile-icon-section i{
+    color: black;
+    font-size: 25px;
+    margin-top: 8px;
+    border: 2px solid;
+    padding: 12px;
+    border-radius: 40px;
+}
+
+.profile-icon-section i:hover {
+    color: blueviolet;
+    transition-duration: 0.5s;
+    margin-top: 8px;
+    border: 2px solid;
+    padding: 12px;
+    border-radius: 40px;
+}
+
+/* DUDEESSEYO HOME BANNER SECTION STYLE */
+.dudeesseyo-banner-section {
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(korean-drama-dalmi-dosan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-text-section {
+    width: 1000px;
+    float: right;
+    margin-top: 180px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.banner-text-section h1 {
+    font-size: 50px;
+}
+
+.banner-text-section h1:hover {
+    font-size: 50px;
+    color:gold;
+    transition-duration: 0.5s;
+}
+
+.banner-text-section h3 {
+    font-size: 30px
+}
+
+/* DUDEESSEYO SEARCH SECTION STYLE */
+.dudeesseyo-search-section {
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dudeesseyo-search-section h1 {
+    font-size: 40px;
+}
+
+.search-section {
+    margin-top: 40px;
+}
+
+.search-section input{
+    padding: 10px;
+    font-size: 15px;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search-section input:focus {
+    outline: none;
+}
+
+.search-section button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: -80px;
+    background-color: coral;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: -80px;
+    background-color: burlywood;
+    color: darkorchid;
+    transition-duration: 0.5s;
+}
+
+
+.social-media-section {
+    margin-top: 50px;
+}
+
+.social-media-section h3 {
+    margin-bottom: -10px;
+}
+
+.social-media-section a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.social-media-section a:hover {
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+/* DUDEESSEYO DRAMA LIST + SIDE BAR SECTION STYLE */
+.dudeesseyo-drama-and-sidebar-section {
+    display: flex;
+    padding: 30px;
+}
+
+
+/* DRAMA LIST + DRAMA HEADER + DRAMA LIST TEXT SECTION STYLE */
+.dudeesseyo-drama-section {
+    width: 850px;
+}
+
+.drama-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drama-header h1 {
+    font-size: 35px;
+}
+
+.drama-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.drama-header a:hover {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.drama-list-header-and-images img{
+    border-radius: 10px;
+}
+
+.drama-list-header-and-images h4 a {
+    color: black;
+    text-decoration: none;
+}
+
+.drama-list-header-and-images h4 a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.drama-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.drama-list-text {
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.drama-list-text ul li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.drama-list-text ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.drama-list-text ul li a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.drama-list-text p i {
+    color: gold;
+}
+
+/* - ONGOING DRAMA SECTION STYLE */
+.ongoing-drama-section, .romance-drama-section, .youth-drama-section {
+    margin-bottom: 200px;
+}
+
+.uncle-samsik, .alchemy-of-souls, .the-double,
+.the-tale-of-rose, .for-a-happy-marriage, .miss-night-and-day {
+    display: flex;
+}
+
+.for-a-happy-marriage .drama-list-text {
+    margin-left: -40px;
+}
+
+.miss-night-and-day .drama-list-text {
+    margin-top: 50px;
+}
+
+/* - ROMANCE DRAMA SECTION STYLE */
+.vincenzo-cassano, .start-up, .descendants-of-the-sun,
+.hometown-cha-cha-cha, .hotel-del-luna, .my-roommate-is-gumiho {
+    display: flex;
+}
+
+.start-up .drama-list-text {
+    margin-top: 50px;
+}
+
+.descendants-of-the-sun .drama-list-text {
+    margin-top: 50px;
+    margin-left: -12px;
+}
+
+.hometown-cha-cha-cha {
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.hometown-cha-cha-cha .drama-list-text {
+    margin-left: -12px;
+}
+
+.hotel-del-luna .drama-list-text {
+    margin-top: 50px;
+}
+
+.my-roommate-is-gumiho .drama-list-text {
+    margin-left: -12px;
+}
+
+/* - YOUTH DRAMA SECTION STYLE */
+.age-of-youth, .takane-to-hana, .fukuyadou-honpo, .dear-m,
+.my-unicorn-girl, .when-i-fly-towards-you {
+    display: flex;
+}
+
+.when-i-fly-towards-you .drama-list-text {
+    margin-left: -2px;
+}
+
+/* - ACTION DRAMA LIST STYLE */
+.a-shop-for-killers, .money-heist, .vagabond, .wes-ngopi-ora,
+.tokyo-revengers, .high-and-low-the-worst-x {
+    display: flex;
+}
+
+.money-heist .drama-list-text {
+    margin-left: -150px;
+}
+
+.vagabond .drama-list-text {
+    margin-top: 50px;
+}
+
+.wes-ngopi-ora {
+    margin-right: 105px;
+}
+
+.wes-ngopi-ora .drama-list-text {
+    margin-top: 50px;
+}
+
+.high-and-low-the-worst-x {
+    margin-right: 80px;
+}
+
+.high-and-low-the-worst-x .drama-list-text {
+    margin-left: -12px;
+}
+
+/* DUDEESSEYO SIDE BAR SECTION STYLE */
+.dudeesseyo-sidebar-section {
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.dudeesseyo-sidebar-section img {
+    border-radius: 10px;
+}
+
+/* -DAILY NEWS SECTION STYLE */
+.daily-news-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.daily-news-header a {
+    margin-top: 26px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.daily-news-header a:hover {
+    margin-top: 26px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.vlog-text {
+    margin-top: 20px;
+}
+
+.vlog-text b {
+    color: grey;
+}
+
+.vlog-text h4 {
+    margin-top: 3px;
+    text-align: justify;
+}
+
+.vlog-text h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.vlog-text h4 a:hover {
+    color: blueviolet;
+}
+
+.vlog-1, .vlog-2 {
+    margin-bottom: 15px;
+}
+
+.vlog-text p {
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.vlog-like-and-comment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: grey;
+}
+
+.like-n-comment {
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.like-n-comment i#heart {
+    margin-right: 10px;
+}
+
+.like-n-comment i#heart:hover {
+    color: red;
+}
+
+.like-n-comment i#comment:hover {
+    color: black;
+}
+
+.number-list-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.number-list-section p {
+    margin: 5px;
+}
+
+.number-list-section button {
+    margin: 5px;
+    border: none;
+    background-color: tomato;
+    padding: 8px;
+    color: #fff;
+    border-radius: 6px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.number-list-section button:hover {
+    margin: 5px;
+    border: none;
+    background-color: rgb(253, 148, 129);
+    padding: 8px;
+    font-weight: 600;
+    color: blueviolet;
+    border-radius: 6px;
+    width: 45px;
+    transition-duration: 0.5s;
+}
+
+/* -YEAR SECTION PART STYLE*/
+.year-section {
+    margin-top: 100px;
+}
+
+.year-list {
+    margin-left: 12px;
+}
+
+.year-list button {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 90px;
+    border: none;
+    background-color: tomato;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.year-list button:hover {
+    background-color: rgb(248, 133, 112);
+    color: blueviolet;
+    transition-duration: 0.5s;
+}
+
+/* -COUNTRY LIST SECTION STYLE */
+.country-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.country-list {
+    margin-left: 15px;
+}
+
+.country-list button {
+    margin-right: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 125px;
+    border: none;
+    border-radius: 8px;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+
+.country-list button:hover {
+    background-color: rgb(248, 133, 112);
+    color: blueviolet;
+    transition-duration: 0.5s;   
+}
+
+/* -AGE RATING SECTION STYLE */
+.age-rating-list {
+    margin-left: 15px;
+}
+
+.age-rating-list button {
+    margin-right: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 125px;
+    border: none;
+    border-radius: 8px;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+
+.age-rating-list button:hover {
+    background-color: rgb(248, 133, 112);
+    color: blueviolet;
+    transition-duration: 0.5s;
+}
+
+/* -MOST POPULAR SECTION PART STYLE */
+.most-popular-show-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.most-popular-show-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.most-popular-show-header h4 {
+    font-size: 16px;
+}
+
+.most-popular-show-header ul {
+    display: flex;
+    margin-top: 21px;
+}
+
+.most-popular-show-header ul li {
+    list-style-type: none;
+}
+.most-popular-show-header ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.most-popular-show-header ul li a:hover {
+    background-color: tomato;
+    padding: 4px;
+    color: antiquewhite;
+    font-size: 13px;
+    transition-duration: 0.5s;
+}
+
+.popular-drama-list {
+    display: flex;
+}
+
+.popular-show-text {
+    margin-top: 30px;
+}
+
+.popular-show-text a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.popular-show-text a:hover {
+    color: blue;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+.popular-drama-list h4, img {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.popular-drama-list-number-list-section {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-drama-list-number-list-section button {
+    margin: 5px;
+    border: none;
+    background-color: tomato;
+    padding: 8px;
+    color: #fff;
+    border-radius: 6px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.popular-drama-list-number-list-section button:hover {
+    background-color: rgb(248, 133, 112);
+    color: blueviolet;
+    transition-duration: 0.5s;
+}
+
+/* FOOTER SECTION AND CALL CENTER STYLE*/
+footer {
+    background-color: pink;
+    border-top: 5px solid red;
+    margin-top: 200px;
+}
+
+.dudeesseyo-footer-and-call-center-section {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* about section style */
+.dudeesseyo-footer-and-call-center-section .news-letter-and-email-section {
+    margin-right: 30px;
+}
+
+.dudeesseyo-footer-and-call-center-section .about-section {
+    margin-right: 45px;
+}
+
+.dudeesseyo-footer-and-call-center-section .about-section .about-text-section{
+    width: 250px;
+}
+
+.dudeesseyo-footer-and-call-center-section .about-section .about-text-section h4 {
+    font-size: 20px;
+}
+
+.dudeesseyo-footer-and-call-center-section .about-section .about-text-section p {
+    margin-top: -30px;
+    text-align: justify;
+}
+
+/* social media section style */
+.dudeesseyo-footer-and-call-center-section .social-media-section .social-media-icon-list {
+    font-size: 25px;
+}
+
+.dudeesseyo-footer-and-call-center-section .social-media-section h4 {
+    font-size: 22px;
+}
+
+.dudeesseyo-footer-and-call-center-section .social-media-section .social-media-icon-list i {
+    margin-right: 16px;
+    margin-bottom: 15px;
+}
+
+/* news letter and email section style */
+.dudeesseyo-footer-and-call-center-section .news-letter-and-email-section {
+    width: 300px;
+}
+
+.dudeesseyo-footer-and-call-center-section .email-input-section input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.dudeesseyo-footer-and-call-center-section .email-input-section input:focus {
+    outline: none;
+}
+
+.dudeesseyo-footer-and-call-center-section .email-input-section button {
+    width: 300px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: cornsilk;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.dudeesseyo-footer-and-call-center-section .email-input-section button:hover {
+    color: rgb(51, 48, 48);
+    background-color: coral;
+    transition-duration: 0.5s;
+}
+
+/* latest insta post section style */
+.instagram-post-section {
+    width: 350px;
+    margin-right: 35px;
+}
+
+.insta-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.insta-post img {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+}
+
+.insta-post img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.instagram-post-section .see-more-button button {
+    width: 295px;
+    padding: 8px;
+    border: none;
+    font-size: 15px;
+    background-color: brown;
+    color: cornsilk;
+    margin-top: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.instagram-post-section .see-more-button button:hover {
+    background-color: coral;
+    color: rgb(51, 48, 48);
+    transition-duration: 0.5s;
+}
+
+/* Call Center FAQ etc Style */
+.call-center-faq-and-so-on-section {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.call-center-faq-and-so-on-section ul {
+    margin-right: 20px;
+}
+
+.call-center-faq-and-so-on-section ul li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.call-center-faq-and-so-on-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.call-center-faq-and-so-on-section ul li a:hover {
+    color: blueviolet;
+    transition-duration: 0.5s;
+}
+
+/* Copyright and Bottom Navbar Section */
+.copyright-and-bottom-navbar-section {
+    background-color: rgb(247, 162, 131);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-and-bottom-navbar-section .navbar-section ul{
+    display: flex;
+}
+
+.copyright-and-bottom-navbar-section .navbar-section ul li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.copyright-and-bottom-navbar-section .navbar-section ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.copyright-and-bottom-navbar-section .navbar-section ul li a:hover {
+    color: blue;
+}
+
+.copyright-and-bottom-navbar-section .copyright-section {
+    padding-right: 30px;
+}
+
+/* For Mobile Devices */
+@media only screen and (max-width: 620px) {
+
+    /* header Section */
+    .dudeesseyo-navbar-header-section {
+        height: 120px;
+    }
+
+    .dudeesseyo-navbar-header-section ul {
+        display: none;
+    }
+
+    .login-plus-profile-section .login-and-sign-up-section {
+        display: none;
+    }
+
+    .login-plus-profile-section .profile-icon-section {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+    
+}
